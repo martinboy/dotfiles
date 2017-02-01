@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doublecmd DCVersion="0.8.0 alpha" ConfigVersion="9">
+  <Configuration Save="True" SortOrder="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+  </Configuration>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <RunInTerminalStayOpenCmd/>
+    <RunInTerminalStayOpenParams/>
+    <RunInTerminalCloseCmd/>
+    <RunInTerminalCloseParams/>
+    <JustRunTerminal>/Users/martin/Applications/iTerm.app</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>False</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>1</Button>
+      </Selection>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>True</AutoFillColumns>
+    <AutoSizeColumn>0</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>yyyy-mm-dd</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList>/Volumes/home;/Volumes/net</DriveBlackList>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Colors>
+    <FileFilters>
+      <Filter>
+        <Name>Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>32768</Color>
+        <Attributes>-*x*</Attributes>
+      </Filter>
+    </FileFilters>
+    <Foreground>8616805</Foreground>
+    <Background>14939901</Background>
+    <Background2>14939901</Background2>
+    <Mark>3093212</Mark>
+    <Cursor>10592659</Cursor>
+    <CursorText>14939901</CursorText>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <UseFrameCursor>False</UseFrameCursor>
+    <FreeSpaceIndicator>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+      <UseGradient>True</UseGradient>
+    </FreeSpaceIndicator>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+  </Colors>
+  <Icons>
+    <Size>16</Size>
+    <ShowOverlays>True</ShowOverlays>
+    <ShowMode>2</ShowMode>
+    <CustomDriveIcons>False</CustomDriveIcons>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+  </Icons>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="False">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>68</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins/>
+  </Plugins>
+  <Language>
+    <POFileName>doublecmd.po</POFileName>
+  </Language>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path>~/bin/subl</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="True">
+      <Path>/usr/local/bin/subl</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>Source Code Pro</Name>
+      <Size>11</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Source Code Pro</Name>
+      <Size>12</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Source Code Pro</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Monospace</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>default</Name>
+      <Size>16</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Source Code Pro</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+    <OptionsTree>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsTree>
+    <OptionsMain>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsMain>
+    <SearchResults>
+      <Name>default</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </SearchResults>
+    <PathEdit>
+      <Name>Source Code Pro</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </PathEdit>
+    <FunctionButtons>
+      <Name>default</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </FunctionButtons>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>20</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </ButtonBar>
+    <DriveBar1>True</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="False">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>True</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>False</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>True</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>0</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>1</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <TitleStyle>1</TitleStyle>
+      <AutoSaveWidth>True</AutoSaveWidth>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>1</NoModifier>
+        <Alt>3</Alt>
+        <CtrlAlt>0</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>True</DropReadOnlyFlag>
+    <ProcessComments>True</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
+    <OverwriteFolder>False</OverwriteFolder>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>True</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+    </Options>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <SearchDefaultTemplate/>
+    <HashBufferSize>8388608</HashBufferSize>
+  </FileOperations>
+  <Tabs>
+    <Options>54033</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>1</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Model">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/</Path>
+                  <Path Filename="Api2">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/</Path>
+                  <Path Filename="Product">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/</Path>
+                  <Path Filename="Rest">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/</Path>
+                  <Path Filename="Admin">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/Rest/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/Rest/Admin/</Path>
+                  <Path Filename="Admin">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/Rest/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/Rest/Admin/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/Rest/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/Product/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/Api2/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/Model/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/</Path>
+                  <Path Filename="CategoriesExtApi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="etc">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CategoriesExtApi/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CategoriesExtApi/etc/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CategoriesExtApi/</Path>
+                  <Path Filename="CatalogExtApi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CatalogExtApi/</Path>
+                  <Path Filename="CategoriesExtApi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/CategoriesExtApi/</Path>
+                  <Path Filename="PaymentExtApi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="etc">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/PaymentExtApi/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/PaymentExtApi/etc/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/PaymentExtApi/</Path>
+                  <Path Filename="SalesExtApi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="etc">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/etc/</Path>
+                  <Path Filename="Model">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/</Path>
+                  <Path Filename="Api2">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/</Path>
+                  <Path Filename="Order">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/</Path>
+                  <Path Filename="Rest">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/Order/</Path>
+                  <Path Filename="Admin">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/Order/Rest/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/Order/Rest/Admin/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/Order/Rest/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/Order/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/Api2/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/Model/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/SalesExtApi/</Path>
+                  <Path Filename="WebHooks">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/</Path>
+                  <Path Filename="etc">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/</Path>
+                  <Path Filename="webapi">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/etc/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/etc/webapi/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/etc/</Path>
+                  <Path Filename="Model">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/Model/</Path>
+                  <Path Filename="etc">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/etc/</Path>
+                  <Path Filename="Model">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/</Path>
+                  <Path Filename="">/Users/martin/Downloads/ShipHero-1.0.3.3/app/code/community/ShipHero/WebHooks/Model/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/Users/martin/Downloads/</LockPath>
+          <Title>Downloads</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="defaults">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="backup">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="magento_upgrade">/Users/martin/.ansible/</Path>
+                  <Path Filename="roles">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="backup">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="defaults">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/defaults/</Path>
+                  <Path Filename="tasks">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/tasks/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="roles">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="ssh_keys">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/ssh_keys/</Path>
+                  <Path Filename="variables">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="ssh_keys">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/ssh_keys/</Path>
+                  <Path Filename="m1_info">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/m1_info/</Path>
+                  <Path Filename="add_host">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/add_host/</Path>
+                  <Path Filename="backup">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="inventory">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/inventory/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="inventory">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/inventory/</Path>
+                  <Path Filename="plays">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/plays/</Path>
+                  <Path Filename="group_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/group_vars/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="Downloads">/Users/martin/</Path>
+                  <Path Filename="Containers.zip">/Users/martin/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="roles">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="ssh_keys">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/ssh_keys/</Path>
+                  <Path Filename="variables">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="ssh_keys">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/ssh_keys/</Path>
+                  <Path Filename="m1_info">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/m1_info/</Path>
+                  <Path Filename="add_host">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/add_host/</Path>
+                  <Path Filename="backup">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/backup/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="inventory">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="clients">/Users/martin/.ansible/magento_upgrade/inventory/</Path>
+                  <Path Filename="roles">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="variables">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="tasks">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/tasks/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="host_vars">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/host_vars/</Path>
+                  <Path Filename="roles">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="variables">/Users/martin/.ansible/magento_upgrade/roles/</Path>
+                  <Path Filename="tasks">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/tasks/</Path>
+                  <Path Filename="templates">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/templates/</Path>
+                  <Path Filename="tasks">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/tasks/</Path>
+                  <Path Filename="defaults">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/defaults/</Path>
+                  <Path Filename="vars">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="..">/Users/martin/.ansible/magento_upgrade/roles/variables/vars/</Path>
+                  <Path Filename="templates">/Users/martin/.ansible/magento_upgrade/roles/variables/</Path>
+                  <Path Filename="">/Users/martin/.ansible/magento_upgrade/roles/variables/templates/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>1</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Downloads">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Downloads/</Path>
+                  <Path Filename="Install">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Install/</Path>
+                  <Path Filename="Movies">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Movies/</Path>
+                  <Path Filename="Music">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Music/</Path>
+                  <Path Filename="old_home_dir">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/old_home_dir/</Path>
+                  <Path Filename="Pictures">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Pictures/</Path>
+                  <Path Filename="Public">/Users/martin/</Path>
+                  <Path Filename="Drop Box">/Users/martin/Public/</Path>
+                  <Path Filename="..">/Users/martin/Public/Drop Box/</Path>
+                  <Path Filename="..">/Users/martin/Public/</Path>
+                  <Path Filename="tmp">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/tmp/</Path>
+                  <Path Filename="Work">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/Work/</Path>
+                  <Path Filename="..">/Users/martin/</Path>
+                  <Path Filename="Shared">/Users/</Path>
+                  <Path Filename="..">/Users/Shared/</Path>
+                  <Path Filename="Shared">/Users/</Path>
+                  <Path Filename="..">/Users/Shared/</Path>
+                  <Path Filename="martin">/Users/</Path>
+                  <Path Filename="Work">/Users/martin/</Path>
+                  <Path Filename="project_sources">/Users/martin/Work/</Path>
+                  <Path Filename="m1920">/Users/martin/Work/project_sources/</Path>
+                  <Path Filename="www">/Users/martin/Work/project_sources/m1920/</Path>
+                  <Path Filename="app">/Users/martin/Work/project_sources/m1920/www/</Path>
+                  <Path Filename="etc">/Users/martin/Work/project_sources/m1920/www/app/</Path>
+                  <Path Filename="local.xml.template">/Users/martin/Work/project_sources/m1920/www/app/etc/</Path>
+                  <Path Filename="project_sources">/Users/martin/Work/</Path>
+                  <Path Filename="tmp">/Users/martin/</Path>
+                  <Path Filename="..">/Users/martin/tmp/</Path>
+                  <Path Filename=".ansible">/Users/martin/</Path>
+                  <Path Filename="magento_upgrade">/Users/martin/.ansible/</Path>
+                  <Path Filename="plays">/Users/martin/.ansible/magento_upgrade/</Path>
+                  <Path Filename="">/Users/martin/.ansible/magento_upgrade/plays/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="wp-content">/Users/martin/Work/project_sources/mageworx-blog/</Path>
+                  <Path Filename="plugins">/Users/martin/Work/project_sources/mageworx-blog/wp-content/</Path>
+                  <Path Filename="xml-sitemap-feed">/Users/martin/Work/project_sources/mageworx-blog/wp-content/plugins/</Path>
+                  <Path Filename="project_sources">/Users/martin/Work/</Path>
+                  <Path Filename="mageworx-site">/Users/martin/Work/project_sources/</Path>
+                  <Path Filename=".modman">/Users/martin/Work/project_sources/mageworx-site/</Path>
+                  <Path Filename="..">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename=".modman">/Users/martin/Work/project_sources/mageworx-site/</Path>
+                  <Path Filename="..">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename=".modman">/Users/martin/Work/project_sources/mageworx-site/</Path>
+                  <Path Filename="MageWorx_Downloads">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename="..">/Users/martin/Work/project_sources/mageworx-site/.modman/MageWorx_Downloads/</Path>
+                  <Path Filename="..">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename=".modman">/Users/martin/Work/project_sources/mageworx-site/</Path>
+                  <Path Filename="..">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename=".modman">/Users/martin/Work/project_sources/mageworx-site/</Path>
+                  <Path Filename="MageWorx_Downloads">/Users/martin/Work/project_sources/mageworx-site/.modman/</Path>
+                  <Path Filename=".git">/Users/martin/Work/project_sources/mageworx-site/.modman/MageWorx_Downloads/</Path>
+                  <Path Filename="packed-refs">/Users/martin/Work/project_sources/mageworx-site/.modman/MageWorx_Downloads/.git/</Path>
+                  <Path Filename="upgrades_backup">/Users/martin/Work/</Path>
+                  <Path Filename="thehealthandbeautyshop">/Users/martin/Work/upgrades_backup/</Path>
+                  <Path Filename="download">/Users/martin/Work/upgrades_backup/thehealthandbeautyshop/</Path>
+                  <Path Filename="Mage.php">/Users/martin/Work/upgrades_backup/thehealthandbeautyshop/download/</Path>
+                  <Path Filename="Macintosh HD">/Volumes/</Path>
+                  <Path Filename="var">/Volumes/Macintosh HD/</Path>
+                  <Path Filename="..">/Volumes/Macintosh HD/var/</Path>
+                  <Path Filename="Users">/Volumes/Macintosh HD/</Path>
+                  <Path Filename="martin">/Volumes/Macintosh HD/Users/</Path>
+                  <Path Filename="Downloads">/Volumes/Macintosh HD/Users/martin/</Path>
+                  <Path Filename="..">/Volumes/Macintosh HD/Users/martin/Downloads/</Path>
+                  <Path Filename="..">/Volumes/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <ActionOnDoubleClick>1</ActionOnDoubleClick>
+  </Tabs>
+  <Log Enabled="False" LogFileWithDateInName="False">
+    <FileName>/Users/martin/Library/Preferences/doublecmd/doublecmd.log</FileName>
+    <Options>255</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>True</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>True</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+  </Miscellaneous>
+  <AutoRefresh>
+    <Options>7</Options>
+    <ExcludeDirs/>
+    <Mode>0</Mode>
+  </AutoRefresh>
+  <IgnoreList Enabled="True">
+    <IgnoreListFile>/Users/martin/Library/Preferences/doublecmd/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList/>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <SaveThumbnails>True</SaveThumbnails>
+    <ImageStretch>False</ImageStretch>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>Pen</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>4</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <ViewerTop>23</ViewerTop>
+    <ViewerLeft>0</ViewerLeft>
+    <ViewerWidth>1920</ViewerWidth>
+    <ViewerHeight>980</ViewerHeight>
+  </Viewer>
+  <Lua>
+    <PathToLibrary>liblua5.1.dylib</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <SearchTemplates>
+    <Template>
+      <Name>Exclude VCS Dirs</Name>
+      <StartPath/>
+      <ExcludeDirectories>.git;.hg;.svn</ExcludeDirectories>
+      <FilesMasks>*</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>True</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>UTF-8</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+  </SearchTemplates>
+  <ColumnsSets DefaultTitleHash="0">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <CursorBorder Enabled="True">
+        <Color>65535</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>487</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>107</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>70</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>112</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>175</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <MainWindow>
+    <Position>
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+      <Left>0</Left>
+      <Top>23</Top>
+      <Width>1920</Width>
+      <Height>980</Height>
+    </Position>
+  </MainWindow>
+  <MultiRenamePresets>
+    <LastPreset/>
+    <Presets/>
+  </MultiRenamePresets>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Menu>
+          <ID>{CED087E4-0724-DE4C-BA69-3755FEA8E78F}</ID>
+          <Icon>view-refresh</Icon>
+          <Hint>Refresh</Hint>
+          <MenuItems>
+            <Command>
+              <ID>{D341D945-0688-3FB2-835B-8FB80EA82A6F}</ID>
+              <Command/>
+            </Command>
+          </MenuItems>
+        </Menu>
+        <Command>
+          <ID>{744C32BA-F539-2BD5-4F5C-FAC6CAB02F1B}</ID>
+          <Icon>go-previous</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{2061A007-90F6-7A7D-FC2A-D6256554B21C}</ID>
+          <Icon>go-next</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Command>
+          <ID>{B3B2CF3E-3A7E-C148-D208-34CDD1F49A25}</ID>
+          <Icon>go-up</Icon>
+          <Command>cm_ChangeDirToParent</Command>
+        </Command>
+        <Separator/>
+        <Separator/>
+        <Separator/>
+        <Separator/>
+        <Command>
+          <ID>{9CA56772-A844-D53C-59B9-4B49A9BB7D8D}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{131E71EB-3C68-5DA2-BFEB-B62974E6A19B}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator/>
+        <Separator/>
+        <Separator/>
+        <Command>
+          <ID>{9F04E75C-44CE-24B9-88BE-88379C435A74}</ID>
+          <Icon>cm_openvirtualfilesystemlist</Icon>
+          <Command>cm_OpenVirtualFileSystemList</Command>
+        </Command>
+        <Command>
+          <ID>{D586191E-BB1C-A7BC-EF48-DE3D7CFE9A1F}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+  </SyncDirs>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+  </InternalAssociations>
+  <Editor>
+    <SynEditOptions>856075</SynEditOptions>
+  </Editor>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{43B74072-5070-9410-75F7-AF46D23B0402}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+</doublecmd>
