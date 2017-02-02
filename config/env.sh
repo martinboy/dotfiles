@@ -13,7 +13,7 @@ export EDITOR='subl -w'
 
 # Owner
 export USER_NAME=$(whoami)
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 # Application settings
 export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
