@@ -1,7 +1,11 @@
 #!/bin/zsh
 
 # PATH
-export PATH=$PATH:$HOME/bin:$HOME/.composer/vendor/bin
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+
+# ENV VARIABLES
 export EDITOR='subl -w'
 # export PYTHONPATH=$PYTHONPATH
 # export MANPATH="/usr/local/man:$MANPATH"
