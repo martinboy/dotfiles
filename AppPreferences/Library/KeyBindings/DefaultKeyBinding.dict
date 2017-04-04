@@ -1,0 +1,10 @@
+{
+    "$^\Uf729" = "moveToBeginningOfDocumentAndModifySelection:";
+    "$^\Uf72b" = "moveToEndOfDocumentAndModifySelection:";
+    "$\Uf729" = "moveToBeginningOfLineAndModifySelection:";
+    "$\Uf72b" = "moveToEndOfLineAndModifySelection:";
+    "^\Uf729" = "moveToBeginningOfDocument:";
+    "^\Uf72b" = "moveToEndOfDocument:";
+    "\Uf729" = "moveToBeginningOfLine:";
+    "\Uf72b" = "moveToEndOfLine:";
+}
