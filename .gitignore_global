@@ -19,3 +19,5 @@ Thumbs.db
 # Application specific files
 *.komodoproject
 
+# IDE
+.idea
