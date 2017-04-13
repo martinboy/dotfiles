@@ -7,7 +7,7 @@ export PATH="$HOME/bin:$PATH"
 
 # ENV VARIABLES
 export EDITOR='subl -w'
-# export PYTHONPATH=$PYTHONPATH
+export PYTHONPATH="$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Virtual Environment
