@@ -82,3 +82,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Add env.sh
 . $HOME/.dotfiles/config/env.sh
+
+# BEGIN SNIPPET: Magento Cloud CLI configuration
+HOME=${HOME:-'/Users/martin'}
+export PATH="$HOME/"'.magento-cloud/bin':"$PATH"
+if [ -f "$HOME/"'.magento-cloud/shell-config.rc' ]; then . "$HOME/"'.magento-cloud/shell-config.rc'; fi # END SNIPPET

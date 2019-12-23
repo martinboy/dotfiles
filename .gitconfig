@@ -1,21 +1,23 @@
 [user]
-  name = Alexander Martinkevich
-  email = a.martinkevich@mageworx.com
+	name = Alexander Martinkevich
+	email = alexander.martinkevich@blueacorn.com
 [core]
-  excludesfile = ~/.gitignore_global
-  autocrlf = input
-  filemode = false
+	excludesfile = /Users/martin/.gitignore_global
+	autocrlf = false
+	fileMode = false
   whitespace = trailing-space,space-before-tab
+	eol = LF
 [difftool "sourcetree"]
-  cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
-  path =
+	cmd = /Users/martin/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
-  cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
-  trustExitCode = true
+	cmd = /Users/martin/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
 [merge]
   tool = kdiff3
 [diff]
   renames = copies
+	renamelimit = 5000
 [alias]
   st = status
   ec = config --global -e
@@ -45,3 +47,5 @@
 [web]
   browser = google-chrome
 
+[commit]
+	template = /Users/martin/.stCommitMsg

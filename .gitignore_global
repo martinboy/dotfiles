@@ -1,5 +1,5 @@
 # Folder view configuration files
-.DS_Store
+**/.DS_Store
 Desktop.ini
 
 # Thumbnail cache files
@@ -21,3 +21,10 @@ Thumbs.db
 
 # IDE
 .idea
+
+#configs
+*.nginx
+composer.phar
+
+#Magento 1 files
+**/app/etc/modules/Zzz_Zzz.xml
