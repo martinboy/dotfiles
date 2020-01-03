@@ -2,16 +2,16 @@
 	name = Alexander Martinkevich
 	email = alexander.martinkevich@blueacorn.com
 [core]
-	excludesfile = /Users/martin/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = false
 	fileMode = false
   whitespace = trailing-space,space-before-tab
 	eol = LF
 [difftool "sourcetree"]
-	cmd = /Users/martin/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
+	cmd = ~/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Users/martin/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	cmd = ~/Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [merge]
   tool = kdiff3
@@ -24,7 +24,7 @@
   up = !git pull --rebase --prune $@ && git submodule update --init --recursive
   cob = checkout -b
   co = checkout
-  branches = branch --list
+  br = branch --sort=-committerdate --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
   ci = commit -m
   cm = !git add -A && git commit -m
   cme = commit --allow-empty -m 'Initial (empty) commit'
@@ -48,4 +48,4 @@
   browser = google-chrome
 
 [commit]
-	template = /Users/martin/.stCommitMsg
+	template = ~/.stCommitMsg
