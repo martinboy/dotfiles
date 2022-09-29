@@ -79,6 +79,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias axbrew='arch -x86_64 /usr/local/homebrew/bin/brew'
+alias tsm=transmission-remote
 
 # Add env.sh
 . $HOME/.dotfiles/config/env.sh
