@@ -1,6 +1,7 @@
 [user]
-	name = Alexander Martinkevich
-	email = alexander.martinkevich@blueacorn.com
+	# These values are set in ~/.gitconfig_local
+[include]
+  path = ~/.gitconfig_local
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = false
