@@ -89,4 +89,10 @@ alias psdiff='/Applications/PhpStorm.app/Contents/MacOS/phpstorm diff'
 # BEGIN SNIPPET: Magento Cloud CLI configuration
 HOME=${HOME:-'/Users/martin'}
 export PATH="$HOME/"'.magento-cloud/bin':"$PATH"
-if [ -f "$HOME/"'.magento-cloud/shell-config.rc' ]; then . "$HOME/"'.magento-cloud/shell-config.rc'; fi # END SNIPPET
+if [ -f "$HOME/"'.magento-cloud/shell-config.rc' ]; then . "$HOME/"'.magento-cloud/shell-config.rc'; fi
+# END SNIPPET
+
+# BEGIN SNIPPET: jetbrains vmoptions
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh";
+if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+# END SNIPPET
