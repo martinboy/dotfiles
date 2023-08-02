@@ -81,6 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias axbrew='arch -x86_64 /usr/local/homebrew/bin/brew'
 alias tsm=transmission-remote
+alias psdiff='/Applications/PhpStorm.app/Contents/MacOS/phpstorm diff'
 
 # Add env.sh
 . $HOME/.dotfiles/config/env.sh
