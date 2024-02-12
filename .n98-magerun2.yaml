@@ -1,0 +1,6 @@
+commands:
+  N98\Magento\Command\Database\DumpCommand:
+    table-groups:
+      - id: "hawk"
+        description: "HawkSearch minimum required tables"
+        tables: "catalog_* cataloginventory_* eav_* store store_* url_rewrite core_config_data"  
