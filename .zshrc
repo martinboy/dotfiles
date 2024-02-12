@@ -49,7 +49,7 @@ export UPDATE_ZSH_DAYS=30
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize github vagrant brew osx zsh-syntax-highlighting)
+plugins=(git colored-man colorize github vagrant brew osx zsh-syntax-highlighting history-substring-search history)
 
 # User configuration
 
@@ -85,6 +85,9 @@ alias psdiff='/Applications/PhpStorm.app/Contents/MacOS/phpstorm diff'
 
 # Add env.sh
 . $HOME/.dotfiles/config/env.sh
+
+# Tell homebrew to not autoupdate every single time I run it (just once a week).
+export HOMEBREW_AUTO_UPDATE_SECS=604800
 
 # BEGIN SNIPPET: Magento Cloud CLI configuration
 HOME=${HOME:-'/Users/martin'}
